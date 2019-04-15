@@ -111,6 +111,12 @@ page = Page([
         [
             {
                 "type": "img_gallery",
+                "name": "CPW Character Design Workshop - Apr. 2019:",
+                "extension": "cpwworkshop",
+                "multipliers": [1.25, 1, 1.25, 1.25]
+            },
+            {
+                "type": "img_gallery",
                 "name": "HackMIT - How to Use 3D Models and AR in iOS - Sept. 2018:",
                 "extension": "hackmitar",
                 "multipliers": []
@@ -169,7 +175,7 @@ page = Page([
             {
                 "type": "links",
                 "name": "Relevant Links:",
-                "links": [{"name": "Exec Team Interest Form", "address": "#"}, {"name": "Mailing List Signup Form", "address": "#"}]
+                "links": [{"name": "Exec Team Interest Form", "address": "https://docs.google.com/forms/d/e/1FAIpQLSd483MZ3iNu3ztmI8F0sv6Xv6E2ze1odD6wGqgGNno2KPUDjA/viewform?usp=sf_link"}, {"name": "Mailing List Signup Form", "address": "https://docs.google.com/forms/d/e/1FAIpQLSdSeO8985It-pmbNk9PkoY4AznYIH9eh8FXNRXLKkS_okgWNg/viewform?usp=sf_link"}]
             },
         ]
     ),
