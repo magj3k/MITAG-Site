@@ -251,7 +251,7 @@ class Row(object):
 
             return rendered_row
         elif self.type == "text":
-            return "<div class='row' id='bigrow' style='background-color: "+self.color+"; text-align: center; overflow-y: scroll; font-size: 29px;'><table width='100%'><tr><td width='7%'></td><td valign='top'>\n<br>"+self.metadata["text"]+"\n"+"<br><br></td><td width='7%'></td></tr></table></div>\n"
+            return "<div class='row' id='bigrow' style='background-color: "+self.color+"; text-align: center; overflow-y: scroll; font-size: 29px; -webkit-overflow-scrolling: touch;'><table width='100%'><tr><td width='7%'></td><td valign='top'>\n<br>"+self.metadata["text"]+"\n"+"<br><br></td><td width='7%'></td></tr></table></div>\n"
         elif self.type == "custom":
             row_type = "bigrow"
             if self.metadata["size"] != None and (self.metadata["size"] == "big" or self.metadata["size"] == "large"):
